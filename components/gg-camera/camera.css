@@ -1,0 +1,370 @@
+.camera-w {
+  width: 100vw;
+  height: 100vh;
+}
+
+.camera-re {
+  position: relative;
+}
+
+.camera-bottom {
+  padding: 30rpx 30rpx 50rpx 30rpx;
+  color: #fff;
+  background: #141519;
+}
+
+.camera-bottom scroll-view {
+  width: 100%;
+  white-space: nowrap;
+  height: 248rpx;
+}
+
+.topBox {
+  width: 750rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+  color: #EEEEEE;
+  font-size: 34rpx;
+}
+
+.topBox .topItem {
+  width: 100%;
+  white-space: pre-wrap;
+  margin-bottom: 15rpx;
+}
+
+.cameraBtn {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 0.5px #139be5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cameraBtn2 {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-color: #007AFF;
+}
+
+.sgdImg {
+  width: 40rpx;
+  height: auto;
+}
+
+.bottomBtn {
+  width: 100%;
+  height: 150rpx;
+  padding-bottom: 15rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomBtn .btn {
+  width: 30%;
+  height: 150rpx;
+  font-size: 34rpx;
+  color: #FFFFFF;
+  line-height: 150rpx;
+}
+
+.bottomBg {
+  width: 100%;
+  height: 170rpx;
+  box-sizing: border-box;
+  padding: 20rpx 30rpx 40rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomBg .imgBox {
+  width: 110rpx;
+  height: 110rpx;
+  float: left;
+  margin-right: 40rpx;
+  position: relative;
+}
+
+.bottomBg .imgBox .cu-tag {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 2px;
+  padding: 3px 5px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  vertical-align: middle;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.bottomBg .imgItem {
+  width: 110rpx;
+  height: 110rpx;
+}
+
+.report {
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 0rpx 20rpx;
+  border-radius: 10rpx;
+  background-color: #2157FF;
+}
+
+.iconClose {
+  width: 20rpx;
+  height: 20rpx;
+}
+
+.reportBox {
+  width: 750rpx;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+  background-color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+}
+
+.listBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 160rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  background: #F7F7F9;
+  margin-bottom: 40rpx;
+  color: #888888;
+}
+
+.active {
+  background-color: #F1F7FF;
+  color: #025ADD;
+}
+
+.repBtn {
+  width: 680rpx;
+  height: 78rpx;
+  line-height: 78rpx;
+  background-color: #025ADD;
+  color: #FFFFFF;
+  font-size: 33rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin: 5rpx auto 20rpx;
+}
+
+.image1 {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools1 {
+  position: absolute;
+  top: 50rpx;
+  left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.tools2 {
+  position: absolute;
+  top: 20vh;
+  right: 30rpx;
+}
+
+.img {
+  width: 70rpx;
+  height: 70rpx;
+  margin: 8rpx 0;
+  color: #ffffff;
+}
+
+.previewer1 {
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  z-index: 9;
+}
+
+.output {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 12;
+}
+
+.output .tips {
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+}
+
+.output .tips2 {
+  display: flex;
+  padding: 20rpx;
+  background-color: #666;
+  border-radius: 20rpx;
+  opacity: 0.8;
+}
+
+.output .close {
+  position: absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+  z-index: 13;
+}
+
+.img-top {
+  position: fixed;
+  right: 0;
+  width: 127rpx;
+  height: 127rpx;
+}
+
+.finish {
+  width: 100%;
+  background: #141519;
+  color: white;
+  text-align: right;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.picture-active {
+  border: 2rpx solid #80D1C8;
+}
+
+.picture-no-active {
+  border: 1px dashed #80D1C8;
+}
+
+.picture-box-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 162rpx;
+  height: 162rpx;
+  opacity: 1;
+  margin-right: 20rpx;
+  margin-bottom: 30rpx;
+  box-sizing: content-box;
+}
+
+.picture-box-item .picture-box-item-icon {
+  width: 162rpx;
+  height: 162rpx;
+}
+
+.picture-box-item .picture-box-item-image {
+  width: 162rpx;
+  height: 162rpx;
+}
+
+.picture-box-item .picture-box-item-name {
+  position: absolute;
+  margin-top: 108rpx;
+  font-size: 15rpx;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #80D1C8;
+  margin-top: 108rpx;
+}
+
+.acea-row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.acea-row.row-middle {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.acea-row.row-around {
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+
+.acea-row.row-top {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.acea-row.row-bottom {
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -o-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+
+.acea-row.row-center {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
