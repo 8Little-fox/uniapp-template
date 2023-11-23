@@ -1,0 +1,3 @@
+# uniapp-template
+集成了uniapp 开发小程序/APP 时遇到的一些，小坑，好用的组件，陆续更新中...
+<img width="410" alt="image" src="https://github.com/8Little-fox/uniapp-template/assets/52819960/5231a4f5-7a4f-446b-9400-9b6e93443415">
