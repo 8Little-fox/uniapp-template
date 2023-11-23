@@ -29,7 +29,8 @@ export default {
       door_time: "",
       list: [
         { label: "上门取件时间", page: "", typeStr: "door_time" },
-        { label: "拍摄", page: "/pages/photo/index", typeStr: "photo" }
+        { label: "拍摄", page: "/pages/photo/index", typeStr: "photo" },
+		{ label: "导航", page: "/pages/nav/index", typeStr: "nav" }
       ]
     };
   },
@@ -43,6 +44,7 @@ export default {
     handleOptionClick(index, item) {
       if (item.typeStr == "door_time") {
         this.changeDoorTime();
+		true
       }
       uni.navigateTo({
         url: item.page

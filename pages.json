@@ -13,6 +13,13 @@
 			}
 		}
 	],
+	"subPackages": [{
+		"root": "pages/nav",
+		"pages": [{
+			"path": "index",
+			"navigationBarTitleText": "导航"
+		}]
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
