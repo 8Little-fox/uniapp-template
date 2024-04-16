@@ -19,7 +19,26 @@
 			"path": "index",
 			"navigationBarTitleText": "导航"
 		}]
+	}, {
+		"root": "pages/themeColor",
+		"pages": [{
+			"path": "index",
+			"style": {
+				"navigationBarTitleText": "测试",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+					// #ifdef APP-PLUS
+					// "titleNView": {
+					// 	"type": "default"
+					// }
+					// #endif
+				}
+			}
+		}]
 	}],
+
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

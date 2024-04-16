@@ -30,7 +30,8 @@ export default {
       list: [
         { label: "上门取件时间", page: "", typeStr: "door_time" },
         { label: "拍摄", page: "/pages/photo/index", typeStr: "photo" },
-		{ label: "导航", page: "/pages/nav/index", typeStr: "nav" }
+		{ label: "导航", page: "/pages/nav/index", typeStr: "nav" },
+		{ label: "背景颜色跟随图片主题色变化", page: "/pages/themeColor/index", typeStr: "themeColor" }
       ]
     };
   },
